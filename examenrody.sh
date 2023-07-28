@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 # valide si el archivo existe aqui
 validate_file() {
