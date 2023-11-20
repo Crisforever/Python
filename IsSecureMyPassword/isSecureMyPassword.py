@@ -42,6 +42,7 @@ def validar_contraseña(contraseña):
     elif ' ' in contraseña:
         return 'La contraseña no debe tener espacios en blanco'
     else:
+        print()
         return 'Contraseña segura'
     
 print(Fore.BLUE+('Inserta tu contraseña:'))
